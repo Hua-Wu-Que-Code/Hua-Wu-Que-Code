@@ -8,7 +8,16 @@
 #define MIN(a,b) ( (a) < (b) ) ? (a) : (b)
 
 void main() {
-    int x = 5;
-    x = x+10+x*16;
-    printf("%d\n", x);
+    unsigned int a =1;
+    unsigned int result = ~a;
+    printf("%d\n", sizeof(a));
+    printf("%u\n", result);
+
+
+
+    int num = 10;
+    int left = num << 2;
+    int right = num >> 2;
+    printf("%d\n",left);
+    printf("%d\n",right);
 }
